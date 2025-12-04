@@ -1,20 +1,26 @@
-# Triadic Recursive Reality
+# Requirements for Triadic Recursive Reality
 
-A conceptual and experimental framework for exploring **triadic recursive lattices** inspired by fractal reality and lattice-based emergent systems.
+## 1️⃣ Python Version
+- Python 3.9+ recommended
+- Use a virtual environment for safety:
+  ```bash
+  python -m venv venv
+  source venv/bin/activate  # macOS/Linux
+  venv\Scripts\activate     # Windows
+Dependencies (requirements.txt)
 
-This repository provides a Python prototype for simulating **Observer ↔ Field ↔ System-State** interactions, recursive feedback loops, and emergent stability across multi-layer networks.
+numpy>=1.24
+matplotlib>=3.7
+jupyter>=1.0
 
-## Features
+Install Dependencies
 
-- Triadic recursive lattice architecture
-- Configurable depth and branching factor
-- Recursive propagation of influence
-- Visualization of node states
-- Modular design for extension and experimentation
-
-## Installation
-
-```bash
-git clone https://github.com/YourUsername/Triadic-Recursive-Reality.git
-cd Triadic-Recursive-Reality
+After activating your virtual environment:
 pip install -r requirements.txt
+
+quick test 
+python lattice.py
+
+You should see a bar chart showing the triadic lattice node This gives you **Python version, virtual environment instructions, dependencies, installation, and a quick test** — all in one place.  
+
+
